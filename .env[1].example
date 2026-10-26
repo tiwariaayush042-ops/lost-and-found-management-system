@@ -1,0 +1,15 @@
+# Environment Variable Template for Lost and Found Management System
+# Copy this file to .env or set these in your local environment
+
+# Database Configuration
+DB_URL=jdbc:mysql://localhost:3306/lost_found_db?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+DB_USERNAME=root
+DB_PASSWORD=your_mysql_password_here
+
+# Initial Admin Credentials (Safe setup)
+ADMIN_EMAIL=admin@campus.edu
+ADMIN_PASSWORD=Admin@StrongPassword123
+ADMIN_NAME=Head Administrator
+
+# Optional Server Port
+PORT=8080
